@@ -8,5 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Telescope_entries_tags extends Model
 {
     use HasFactory;
-    protected $connection ='mysql_second';
+    protected $connection ='pgsql_second';
 }
+
